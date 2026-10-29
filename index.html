@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifra Tabassum | Portfolio</title>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Particle Effect Layer -->
+    <div class="bg-particles" id="particles"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Ifra<span>.</span></a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <!-- Resume Download Button (Place resume.pdf in images/ folder) -->
+            <a href="images/resume.pdf" download="Ifra_Tabassum_CV.pdf" class="btn btn-primary nav-btn">
+                <i class="fas fa-download"></i> Download CV
+            </a>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text" data-animate>
+                <span class="badge">Welcome to my Portfolio</span>
+                <h1>Hi, I'm <span class="pink-gradient-text">Ifra Tabassum</span></h1>
+                <h3>Web Developer & Data Analytics Student</h3>
+                <p>Passionate about crafting beautiful responsive websites, turning complex data into intuitive visual dashboards, and building meaningful digital experiences.</p>
+                
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#projects" class="btn btn-outline">View Projects</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:contact@example.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper" data-animate>
+                <div class="profile-card">
+                    <div class="glow-ring"></div>
+                    <!-- IFRA PHOTO: Replace images/profile.jpg with your photo -->
+                    <img src="images/profile.jpg" alt="Ifra Tabassum Profile Photo" class="profile-img" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-title" data-animate>
+                <h2>About <span>Me</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card" data-animate>
+                    <i class="fas fa-graduation-cap card-icon"></i>
+                    <h3>Education & Training</h3>
+                    <p>Enrolled in the D4WEE Training Program at Government College Women University Faisalabad (GCWUF), specializing in Web Development & Data Analytics (Tier 2).</p>
+                </div>
+                <div class="about-card" data-animate>
+                    <i class="fas fa-code card-icon"></i>
+                    <h3>Technical Focus</h3>
+                    <p>Bridging academia and technology by creating modern user interfaces with HTML/CSS/JS and uncovering data insights with analytics tools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-title" data-animate>
+                <h2>My <span>Skills</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card" data-animate>
+                    <i class="fab fa-html5 skill-icon"></i>
+                    <h4>HTML5</h4>
+                    <p>Semantic & Structured Layouts</p>
+                </div>
+                <div class="skill-card" data-animate>
+                    <i class="fab fa-css3-alt skill-icon"></i>
+                    <h4>CSS3 & Styling</h4>
+                    <p>Responsive & Flex/Grid Styling</p>
+                </div>
+                <div class="skill-card" data-animate>
+                    <i class="fab fa-js skill-icon"></i>
+                    <h4>JavaScript</h4>
+                    <p>Interactive Features & DOM</p>
+                </div>
+                <div class="skill-card" data-animate>
+                    <i class="fab fa-github skill-icon"></i>
+                    <h4>Git & GitHub</h4>
+                    <p>Version Control & Pages Hosting</p>
+                </div>
+                <div class="skill-card" data-animate>
+                    <i class="fas fa-chart-line skill-icon"></i>
+                    <h4>Data Analytics</h4>
+                    <p>Data Visualisation & Insights</p>
+                </div>
+                <div class="skill-card" data-animate>
+                    <i class="fas fa-table skill-icon"></i>
+                    <h4>Google Sheets</h4>
+                    <p>Spreadsheet Analysis & Reporting</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-title" data-animate>
+                <h2>Featured <span>Projects</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-animate>
+                    <div class="project-img-box">
+                        <!-- PROJECT 1 IMAGE: Replace images/project1.jpg -->
+                        <img src="images/project1.jpg" alt="Responsive Landing Page" onerror="this.src='https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Responsive E-Commerce Landing Page</h3>
+                        <p>Modern product showcases designed with custom Figma layouts and converted into clean HTML5 and CSS3 code.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn btn-sm"><i class="fab fa-github"></i> Code Repository</a>
+                            <a href="#" target="_blank" class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-animate>
+                    <div class="project-img-box">
+                        <!-- PROJECT 2 IMAGE: Replace images/project2.jpg -->
+                        <img src="images/project2.jpg" alt="Data Analytics Dashboard" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Data Analytics Dashboard</h3>
+                        <p>Interactive analytical report analyzing trends and dataset insights using structured reporting and Google Sheets visualization.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn btn-sm"><i class="fab fa-github"></i> Code Repository</a>
+                            <a href="#" target="_blank" class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title" data-animate>
+                <h2>Contact <span>Me</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="contact-wrapper">
+                <form class="contact-form" id="contactForm" data-animate>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 <span>Ifra Tabassum</span> | D4WEE Training Program - GCWUF</p>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
